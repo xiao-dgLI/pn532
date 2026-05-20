@@ -1,0 +1,585 @@
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       2 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       2 |    1912 | Read 1912 nonces from file. cuid=571f34a5               | 140737488355328 |   14d
+       2 |    1912 | Target Block=0, Keytype=A                               | 140737488355328 |   14d
+       2 |    1912 | (1. guess: Sum(a8) = 0)                                 |             nan |  nand
+       2 |    1912 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |    1912 | (18. guess: Sum(a8) = 224)                              |             nan |  nand
+       2 |    1912 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       1 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       1 |    1798 | (1. guess: Sum(a8) = 0)                                 |             nan |  nand
+       9 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+      49 |    1798 | Brute force phase:   2.88%                              |             nan |  nand
+      55 |    1798 | Brute force phase:   5.71%                              |             nan |  nand
+      88 |    1798 | Brute force phase:   8.51%                              |             nan |  nand
+      94 |    1798 | Brute force phase:  11.32%                              |             nan |  nand
+     164 |    1798 | Brute force phase:  22.72%                              |             nan |  nand
+     307 |    1798 | Brute force phase:  67.50%                              |             nan |  nand
+     311 |    1798 | (2. guess: Sum(a8) = 32)                                |             nan |  nand
+     319 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     325 |    1798 | Brute force phase:   1.34%                              |             nan |  nand
+     341 |    1798 | Brute force phase:   8.17%                              |             nan |  nand
+     350 |    1798 | Brute force phase:  19.53%                              |             nan |  nand
+     357 |    1798 | Brute force phase:  33.70%                              |             nan |  nand
+     363 |    1798 | Brute force phase:  42.15%                              |             nan |  nand
+     372 |    1798 | Brute force phase:  47.67%                              |             nan |  nand
+     381 |    1798 | Brute force phase:  64.10%                              |             nan |  nand
+     388 |    1798 | Brute force phase:  71.00%                              |             nan |  nand
+     393 |    1798 | Brute force phase:  72.43%                              |             nan |  nand
+     405 |    1798 | Brute force phase:  88.84%                              |             nan |  nand
+     419 |    1798 | Brute force phase:  94.15%                              |             nan |  nand
+     424 |    1798 | Brute force phase: 100.00%                              |             nan |  nand
+     424 |    1798 | (3. guess: Sum(a8) = 56)                                |             nan |  nand
+     426 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     426 |    1798 | Starting brute force...                                 |             nan |  nand
+     434 |    1798 | Brute force phase:  66.14%                              |             nan |  nand
+     434 |    1798 | (4. guess: Sum(a8) = 64)                                |             nan |  nand
+     443 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     470 |    1798 | Brute force phase:   1.46%                              |             nan |  nand
+     476 |    1798 | Brute force phase:   2.92%                              |             nan |  nand
+     553 |    1798 | Brute force phase:   8.67%                              |             nan |  nand
+     569 |    1798 | Brute force phase:  20.12%                              |             nan |  nand
+     580 |    1798 | Brute force phase:  31.09%                              |             nan |  nand
+     589 |    1798 | Brute force phase:  32.54%                              |             nan |  nand
+     598 |    1798 | Brute force phase:  33.94%                              |             nan |  nand
+     613 |    1798 | Brute force phase:  40.99%                              |             nan |  nand
+     627 |    1798 | Brute force phase:  42.45%                              |             nan |  nand
+     670 |    1798 | Brute force phase:  47.82%                              |             nan |  nand
+     690 |    1798 | Brute force phase:  53.10%                              |             nan |  nand
+     722 |    1798 | Brute force phase:  64.60%                              |             nan |  nand
+     736 |    1798 | Brute force phase:  71.81%                              |             nan |  nand
+     746 |    1798 | Brute force phase:  76.89%                              |             nan |  nand
+     760 |    1798 | Brute force phase:  78.34%                              |             nan |  nand
+     783 |    1798 | Brute force phase:  83.67%                              |             nan |  nand
+     789 |    1798 | Brute force phase:  89.23%                              |             nan |  nand
+     877 |    1798 | Brute force phase:  94.85%                              |             nan |  nand
+     878 |    1798 | (5. guess: Sum(a8) = 80)                                |             nan |  nand
+     882 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     887 |    1798 | Brute force phase:   2.81%                              |             nan |  nand
+     899 |    1798 | Brute force phase:   8.07%                              |             nan |  nand
+     906 |    1798 | Brute force phase:  30.89%                              |             nan |  nand
+     912 |    1798 | Brute force phase:  40.60%                              |             nan |  nand
+     919 |    1798 | Brute force phase:  47.31%                              |             nan |  nand
+     926 |    1798 | Brute force phase:  58.65%                              |             nan |  nand
+     932 |    1798 | Brute force phase:  72.39%                              |             nan |  nand
+     941 |    1798 | Brute force phase:  88.96%                              |             nan |  nand
+     951 |    1798 | Brute force phase:  94.45%                              |             nan |  nand
+     955 |    1798 | (6. guess: Sum(a8) = 96)                                |             nan |  nand
+     972 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+    1044 |    1798 | Brute force phase:   1.13%                              |             nan |  nand
+    1067 |    1798 | Brute force phase:   2.59%                              |             nan |  nand
+    1141 |    1798 | Brute force phase:   4.01%                              |             nan |  nand
+    1214 |    1798 | Brute force phase:   6.19%                              |             nan |  nand
+    1234 |    1798 | Brute force phase:   7.62%                              |             nan |  nand
+    1241 |    1798 | Brute force phase:  13.20%                              |             nan |  nand
+    1303 |    1798 | Brute force phase:  19.75%                              |             nan |  nand
+    1329 |    1798 | Brute force phase:  28.00%                              |             nan |  nand
+    1334 |    1798 | Brute force phase:  32.97%                              |             nan |  nand
+    1405 |    1798 | Brute force phase:  34.17%                              |             nan |  nand
+    1413 |    1798 | Brute force phase:  35.40%                              |             nan |  nand
+    1528 |    1798 | Brute force phase:  40.25%                              |             nan |  nand
+    1736 |    1798 | Brute force phase:  50.28%                              |             nan |  nand
+    1745 |    1798 | Brute force phase:  55.03%                              |             nan |  nand
+    1753 |    1798 | Brute force phase:  65.17%                              |             nan |  nand
+    1800 |    1798 | Brute force phase:  66.37%                              |             nan |  nand
+    2038 |    1798 | Brute force phase:  72.75%                              |             nan |  nand
+    2060 |    1798 | Brute force phase:  83.00%                              |             nan |  nand
+    2077 |    1798 | Brute force phase:  88.20%                              |             nan |  nand
+    2125 |    1798 | Brute force phase:  89.38%                              |             nan |  nand
+    2144 |    1798 | Brute force phase:  90.62%                              |             nan |  nand
+    2382 |    1798 | Brute force phase:  95.28%                              |             nan |  nand
+    2403 |    1798 | Brute force phase: 100.00%                              |             nan |  nand
+    2403 |    1798 | (7. guess: Sum(a8) = 104)                               |             nan |  nand
+    2415 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+    2426 |    1798 | Brute force phase:   1.24%                              |             nan |  nand
+    2461 |    1798 | Brute force phase:   7.82%                              |             nan |  nand
+    2467 |    1798 | Brute force phase:  25.20%                              |             nan |  nand
+    2472 |    1798 | Brute force phase:  30.61%                              |             nan |  nand
+    2478 |    1798 | Brute force phase:  39.04%                              |             nan |  nand
+    2484 |    1798 | Brute force phase:  40.34%                              |             nan |  nand
+    2490 |    1798 | Brute force phase:  41.71%                              |             nan |  nand
+    2507 |    1798 | Brute force phase:  47.03%                              |             nan |  nand
+    2518 |    1798 | Brute force phase:  52.86%                              |             nan |  nand
+    2527 |    1798 | Brute force phase:  64.13%                              |             nan |  nand
+    2535 |    1798 | Brute force phase:  65.53%                              |             nan |  nand
+    2552 |    1798 | Brute force phase:  83.35%                              |             nan |  nand
+    2558 |    1798 | Brute force phase:  88.81%                              |             nan |  nand
+    2588 |    1798 | Brute force phase:  94.41%                              |             nan |  nand
+    2595 |    1798 | Brute force phase: 100.00%                              |             nan |  nand
+    2607 |    1798 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+    2607 |    1798 | Starting brute force...                                 |             nan |  nand
+    2651 |    1798 | Brute force phase:   1.38%                              |             nan |  nand
+    2656 |    1798 | Brute force phase:   2.73%                              |             nan |  nand
+    2787 |    1798 | Brute force phase:   8.46%                              |             nan |  nand
+    2801 |    1798 | Brute force phase:  19.71%                              |             nan |  nand
+    2811 |    1798 | Brute force phase:  25.43%                              |             nan |  nand
+    2830 |    1798 | Brute force phase:  30.82%                              |             nan |  nand
+    2840 |    1798 | Brute force phase:  32.19%                              |             nan |  nand
+    2859 |    1798 | Brute force phase:  39.28%                              |             nan |  nand
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       1 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       1 |    1618 | (1. guess: Sum(a8) = 0)                                 |             nan |  nand
+       9 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       9 |    1618 | Starting brute force...                                 |             nan |  nand
+      17 |    1618 | Brute force phase:   2.83%                              |             nan |  nand
+      25 |    1618 | Brute force phase:   8.51%                              |             nan |  nand
+      42 |    1618 | Brute force phase:  22.53%                              |             nan |  nand
+      73 |    1618 | Brute force phase:  67.23%                              |             nan |  nand
+      74 |    1618 | (2. guess: Sum(a8) = 32)                                |             nan |  nand
+      82 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+      83 |    1618 | Starting brute force...                                 |             nan |  nand
+      94 |    1618 | Brute force phase:   8.36%                              |             nan |  nand
+     100 |    1618 | Brute force phase:  40.71%                              |             nan |  nand
+     107 |    1618 | Brute force phase:  47.67%                              |             nan |  nand
+     112 |    1618 | Brute force phase:  69.90%                              |             nan |  nand
+     118 |    1618 | Brute force phase:  83.21%                              |             nan |  nand
+     127 |    1618 | Brute force phase:  94.15%                              |             nan |  nand
+     129 |    1618 | (3. guess: Sum(a8) = 56)                                |             nan |  nand
+     130 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     130 |    1618 | Starting brute force...                                 |             nan |  nand
+     134 |    1618 | (4. guess: Sum(a8) = 64)                                |             nan |  nand
+     145 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     145 |    1618 | Starting brute force...                                 |             nan |  nand
+     167 |    1618 | Brute force phase:   1.46%                              |             nan |  nand
+     240 |    1618 | Brute force phase:   8.67%                              |             nan |  nand
+     246 |    1618 | Brute force phase:  25.70%                              |             nan |  nand
+     257 |    1618 | Brute force phase:  31.09%                              |             nan |  nand
+     264 |    1618 | Brute force phase:  33.94%                              |             nan |  nand
+     277 |    1618 | Brute force phase:  39.55%                              |             nan |  nand
+     285 |    1618 | Brute force phase:  40.99%                              |             nan |  nand
+     304 |    1618 | Brute force phase:  42.45%                              |             nan |  nand
+     342 |    1618 | Brute force phase:  47.82%                              |             nan |  nand
+     348 |    1618 | Brute force phase:  53.10%                              |             nan |  nand
+     367 |    1618 | Brute force phase:  64.79%                              |             nan |  nand
+     375 |    1618 | Brute force phase:  66.22%                              |             nan |  nand
+     389 |    1618 | Brute force phase:  67.66%                              |             nan |  nand
+     398 |    1618 | Brute force phase:  73.26%                              |             nan |  nand
+     406 |    1618 | Brute force phase:  78.34%                              |             nan |  nand
+     426 |    1618 | Brute force phase:  83.67%                              |             nan |  nand
+     444 |    1618 | Brute force phase:  89.23%                              |             nan |  nand
+     497 |    1618 | Brute force phase:  94.38%                              |             nan |  nand
+     516 |    1618 | Brute force phase: 100.00%                              |             nan |  nand
+     516 |    1618 | (5. guess: Sum(a8) = 80)                                |             nan |  nand
+     522 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     522 |    1618 | Starting brute force...                                 |             nan |  nand
+     534 |    1618 | Brute force phase:   8.07%                              |             nan |  nand
+     539 |    1618 | Brute force phase:  40.52%                              |             nan |  nand
+     545 |    1618 | Brute force phase:  47.31%                              |             nan |  nand
+     552 |    1618 | Brute force phase:  64.34%                              |             nan |  nand
+     557 |    1618 | Brute force phase:  78.09%                              |             nan |  nand
+     569 |    1618 | Brute force phase:  94.45%                              |             nan |  nand
+     572 |    1618 | (6. guess: Sum(a8) = 96)                                |             nan |  nand
+     597 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     597 |    1618 | Starting brute force...                                 |             nan |  nand
+     658 |    1618 | Brute force phase:   1.13%                              |             nan |  nand
+     673 |    1618 | Brute force phase:   2.29%                              |             nan |  nand
+     688 |    1618 | Brute force phase:   2.88%                              |             nan |  nand
+     740 |    1618 | Brute force phase:   4.01%                              |             nan |  nand
+     748 |    1618 | Brute force phase:   5.10%                              |             nan |  nand
+     803 |    1618 | Brute force phase:   6.23%                              |             nan |  nand
+     811 |    1618 | Brute force phase:   7.32%                              |             nan |  nand
+     818 |    1618 | Brute force phase:  27.79%                              |             nan |  nand
+     827 |    1618 | Brute force phase:  28.39%                              |             nan |  nand
+     855 |    1618 | Brute force phase:  29.60%                              |             nan |  nand
+     865 |    1618 | Brute force phase:  32.01%                              |             nan |  nand
+     874 |    1618 | Brute force phase:  33.25%                              |             nan |  nand
+     884 |    1618 | Brute force phase:  34.32%                              |             nan |  nand
+    1022 |    1618 | Brute force phase:  40.25%                              |             nan |  nand
+    1089 |    1618 | Brute force phase:  50.28%                              |             nan |  nand
+    1104 |    1618 | Brute force phase:  55.62%                              |             nan |  nand
+    1184 |    1618 | Brute force phase:  60.42%                              |             nan |  nand
+    1224 |    1618 | Brute force phase:  66.38%                              |             nan |  nand
+    1308 |    1618 | Brute force phase:  72.74%                              |             nan |  nand
+    1325 |    1618 | Brute force phase:  77.94%                              |             nan |  nand
+    1356 |    1618 | Brute force phase:  79.12%                              |             nan |  nand
+    1376 |    1618 | Brute force phase:  80.35%                              |             nan |  nand
+    1405 |    1618 | Brute force phase:  85.46%                              |             nan |  nand
+    1522 |    1618 | Brute force phase:  95.28%                              |             nan |  nand
+    1540 |    1618 | Brute force phase: 100.00%                              |             nan |  nand
+    1540 |    1618 | (7. guess: Sum(a8) = 104)                               |             nan |  nand
+    1550 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+    1550 |    1618 | Starting brute force...                                 |             nan |  nand
+    1556 |    1618 | Brute force phase:   1.35%                              |             nan |  nand
+    1578 |    1618 | Brute force phase:   8.32%                              |             nan |  nand
+    1587 |    1618 | Brute force phase:  31.99%                              |             nan |  nand
+    1593 |    1618 | Brute force phase:  40.34%                              |             nan |  nand
+    1599 |    1618 | Brute force phase:  41.71%                              |             nan |  nand
+    1605 |    1618 | Brute force phase:  47.03%                              |             nan |  nand
+    1616 |    1618 | Brute force phase:  52.86%                              |             nan |  nand
+    1624 |    1618 | Brute force phase:  65.41%                              |             nan |  nand
+    1631 |    1618 | Brute force phase:  76.40%                              |             nan |  nand
+    1642 |    1618 | Brute force phase:  83.16%                              |             nan |  nand
+    1662 |    1618 | Brute force phase:  94.41%                              |             nan |  nand
+    1666 |    1618 | (8. guess: Sum(a8) = 112)                               |             nan |  nand
+    1679 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+    1679 |    1618 | Starting brute force...                                 |             nan |  nand
+    1715 |    1618 | Brute force phase:   1.35%                              |             nan |  nand
+    1832 |    1618 | Brute force phase:   8.20%                              |             nan |  nand
+    1840 |    1618 | Brute force phase:  13.92%                              |             nan |  nand
+    1867 |    1618 | Brute force phase:  26.80%                              |             nan |  nand
+    1879 |    1618 | Brute force phase:  39.28%                              |             nan |  nand
+    1904 |    1618 | Brute force phase:  40.65%                              |             nan |  nand
+    1991 |    1618 | Brute force phase:  47.55%                              |             nan |  nand
+    2007 |    1618 | Brute force phase:  53.23%                              |             nan |  nand
+    2015 |    1618 | Brute force phase:  58.79%                              |             nan |  nand
+    2039 |    1618 | Brute force phase:  64.41%                              |             nan |  nand
+    2050 |    1618 | Brute force phase:  65.79%                              |             nan |  nand
+    2055 |    1618 | Brute force phase:  76.76%                              |             nan |  nand
+    2071 |    1618 | Brute force phase:  78.18%                              |             nan |  nand
+    2134 |    1618 | Brute force phase:  83.58%                              |             nan |  nand
+    2176 |    1618 | Brute force phase:  89.18%                              |             nan |  nand
+    2299 |    1618 | Brute force phase:  94.55%                              |             nan |  nand
+    2340 |    1618 | Brute force phase: 100.00%                              |             nan |  nand
+    2340 |    1618 | (9. guess: Sum(a8) = 120)                               |             nan |  nand
+    2358 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+    2364 |    1618 | Starting brute force...                                 |             nan |  nand
+    2473 |    1618 | Brute force phase:   2.51%                              |             nan |  nand
+    2552 |    1618 | Brute force phase:   7.77%                              |             nan |  nand
+    2701 |    1618 | Brute force phase:  10.28%                              |             nan |  nand
+    2889 |    1618 | Brute force phase:  21.78%                              |             nan |  nand
+    2945 |    1618 | Brute force phase:  32.94%                              |             nan |  nand
+    2989 |    1618 | Brute force phase:  44.37%                              |             nan |  nand
+    3061 |    1618 | Brute force phase:  55.47%                              |             nan |  nand
+    3304 |    1618 | Brute force phase:  66.58%                              |             nan |  nand
+    3384 |    1618 | Brute force phase:  77.80%                              |             nan |  nand
+    3544 |    1618 | Brute force phase:  89.03%                              |             nan |  nand
+    3550 |    1618 | Brute force phase: 100.00%                              |             nan |  nand
+    3551 |    1618 | (10. guess: Sum(a8) = 128)                              |             nan |  nand
+    3597 |    1618 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+    3597 |    1618 | Starting brute force...                                 |             nan |  nand
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       2 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       2 |     908 | Read 908 nonces from file. cuid=aaf32da5                | 140737488355328 |   14d
+       2 |     908 | Target Block=0, Keytype=A                               | 140737488355328 |   14d
+       2 |     908 | (1. guess: Sum(a8) = 0)                                 |               0 |    0s
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |               0 |    0s
+       2 |     908 | (2. guess: Sum(a8) = 32)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (3. guess: Sum(a8) = 56)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (4. guess: Sum(a8) = 64)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (5. guess: Sum(a8) = 80)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (6. guess: Sum(a8) = 96)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (7. guess: Sum(a8) = 104)                               |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (8. guess: Sum(a8) = 112)                               |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (9. guess: Sum(a8) = 120)                               |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (10. guess: Sum(a8) = 128)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (11. guess: Sum(a8) = 136)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (12. guess: Sum(a8) = 144)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (13. guess: Sum(a8) = 152)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (14. guess: Sum(a8) = 160)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (15. guess: Sum(a8) = 176)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (16. guess: Sum(a8) = 192)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (17. guess: Sum(a8) = 200)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (18. guess: Sum(a8) = 224)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (19. guess: Sum(a8) = 256)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       2 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       2 |     908 | Read 908 nonces from file. cuid=aaf32da5                | 140737488355328 |   14d
+       2 |     908 | Target Block=0, Keytype=A                               | 140737488355328 |   14d
+       2 |     908 | (1. guess: Sum(a8) = 0)                                 |               0 |    0s
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |               0 |    0s
+       2 |     908 | (2. guess: Sum(a8) = 32)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (3. guess: Sum(a8) = 56)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (4. guess: Sum(a8) = 64)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (5. guess: Sum(a8) = 80)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (6. guess: Sum(a8) = 96)                                |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (7. guess: Sum(a8) = 104)                               |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (8. guess: Sum(a8) = 112)                               |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (9. guess: Sum(a8) = 120)                               |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (10. guess: Sum(a8) = 128)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (11. guess: Sum(a8) = 136)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (12. guess: Sum(a8) = 144)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (13. guess: Sum(a8) = 152)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (14. guess: Sum(a8) = 160)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (15. guess: Sum(a8) = 176)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (16. guess: Sum(a8) = 192)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (17. guess: Sum(a8) = 200)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (18. guess: Sum(a8) = 224)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+       2 |     908 | (19. guess: Sum(a8) = 256)                              |             nan |  nand
+       2 |     908 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       2 |     908 | Starting brute force...                                 |             nan |  nand
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       2 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       2 |    1408 | Read 1408 nonces from file. cuid=aaf32da5               | 140737488355328 |   14d
+       2 |    1408 | Target Block=0, Keytype=A                               | 140737488355328 |   14d
+       2 |    1408 | (1. guess: Sum(a8) = 0)                                 |             nan |  nand
+      10 |    1408 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+      10 |    1408 | Starting brute force...                                 |             nan |  nand
+      71 |    1408 | Brute force phase:   2.88%                              |             nan |  nand
+      76 |    1408 | Brute force phase:   5.71%                              |             nan |  nand
+     135 |    1408 | Brute force phase:   8.51%                              |             nan |  nand
+     141 |    1408 | Brute force phase:  11.32%                              |             nan |  nand
+     247 |    1408 | Brute force phase:  22.72%                              |             nan |  nand
+     458 |    1408 | Brute force phase:  67.50%                              |             nan |  nand
+     465 |    1408 | Brute force phase: 100.00%                              |             nan |  nand
+     465 |    1408 | (2. guess: Sum(a8) = 32)                                |             nan |  nand
+     472 |    1408 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     472 |    1408 | Starting brute force...                                 |             nan |  nand
+     481 |    1408 | Brute force phase:   1.43%                              |             nan |  nand
+     504 |    1408 | Brute force phase:   8.36%                              |             nan |  nand
+     509 |    1408 | Brute force phase:  19.55%                              |             nan |  nand
+     514 |    1408 | Brute force phase:  26.90%                              |             nan |  nand
+     520 |    1408 | Brute force phase:  33.89%                              |             nan |  nand
+     530 |    1408 | Brute force phase:  40.71%                              |             nan |  nand
+     542 |    1408 | Brute force phase:  47.67%                              |             nan |  nand
+     552 |    1408 | Brute force phase:  53.21%                              |             nan |  nand
+     562 |    1408 | Brute force phase:  64.50%                              |             nan |  nand
+     570 |    1408 | Brute force phase:  72.69%                              |             nan |  nand
+     580 |    1408 | Brute force phase:  83.21%                              |             nan |  nand
+     586 |    1408 | Brute force phase:  88.84%                              |             nan |  nand
+     606 |    1408 | Brute force phase:  94.15%                              |             nan |  nand
+     618 |    1408 | Brute force phase: 100.00%                              |             nan |  nand
+     618 |    1408 | (3. guess: Sum(a8) = 56)                                |             nan |  nand
+     619 |    1408 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     619 |    1408 | Starting brute force...                                 |             nan |  nand
+     624 |    1408 | Brute force phase:  55.66%                              |             nan |  nand
+     629 |    1408 | (4. guess: Sum(a8) = 64)                                |             nan |  nand
+     640 |    1408 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+     640 |    1408 | Starting brute force...                                 |             nan |  nand
+     678 |    1408 | Brute force phase:   1.46%                              |             nan |  nand
+     687 |    1408 | Brute force phase:   2.92%                              |             nan |  nand
+     778 |    1408 | Brute force phase:   8.48%                              |             nan |  nand
+     791 |    1408 | Brute force phase:  14.06%                              |             nan |  nand
+     815 |    1408 | Brute force phase:  19.94%                              |             nan |  nand
+     831 |    1408 | Brute force phase:  25.70%                              |             nan |  nand
+     839 |    1408 | Brute force phase:  31.09%                              |             nan |  nand
+     880 |    1408 | Brute force phase:  39.55%                              |             nan |  nand
+     911 |    1408 | Brute force phase:  42.45%                              |             nan |  nand
+     961 |    1408 | Brute force phase:  47.82%                              |             nan |  nand
+     985 |    1408 | Brute force phase:  53.72%                              |             nan |  nand
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       2 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       2 |    1408 | Read 1408 nonces from file. cuid=aaf32da5               | 140737488355328 |   14d
+       2 |    1408 | Target Block=0, Keytype=A                               | 140737488355328 |   14d
+       2 |    1408 | (1. guess: Sum(a8) = 0)                                 |             nan |  nand
+      11 |    1408 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+      11 |    1408 | Starting brute force...                                 |             nan |  nand
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       1 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       1 |    1408 | Read 1408 nonces from file. cuid=aaf32da5               | 140737488355328 |   14d
+       1 |    1408 | Target Block=0, Keytype=A                               | 140737488355328 |   14d
+       1 |    1408 | (1. guess: Sum(a8) = 0)                                 |             nan |  nand
+help             This help. Use '<command> help' for details of a particular command.
+data             { Plot window / data buffer manipulation... }
+hf               { High Frequency commands... }
+hw               { Hardware commands... }
+lf               { Low Frequency commands... }
+emv              { EMV iso14443 and iso7816... }
+sc               { Smartcard commands... }
+script           { Scripting commands }
+quit             Exit program
+exit             Exit program
+help             This help. Use '<command> help' for details of a particular command.
+data             { Plot window / data buffer manipulation... }
+hf               { High Frequency commands... }
+hw               { Hardware commands... }
+lf               { Low Frequency commands... }
+emv              { EMV iso14443 and iso7816... }
+sc               { Smartcard commands... }
+script           { Scripting commands }
+quit             Exit program
+exit             Exit program
+help             This help. Use '<command> help' for details of a particular command.
+data             { Plot window / data buffer manipulation... }
+hf               { High Frequency commands... }
+hw               { Hardware commands... }
+lf               { Low Frequency commands... }
+emv              { EMV iso14443 and iso7816... }
+sc               { Smartcard commands... }
+script           { Scripting commands }
+quit             Exit program
+exit             Exit program
+help             This help. Use '<command> help' for details of a particular command.
+data             { Plot window / data buffer manipulation... }
+hf               { High Frequency commands... }
+hw               { Hardware commands... }
+lf               { Low Frequency commands... }
+emv              { EMV iso14443 and iso7816... }
+sc               { Smartcard commands... }
+script           { Scripting commands }
+quit             Exit program
+exit             Exit program
+help             This help
+15               { ISO15693 RFIDs... }
+iclass           { ICLASS RFIDs... }
+mf               { MIFARE RFIDs... }
+mfu              { MIFARE Ultralight RFIDs... }
+list             List protocol data in trace buffer
+--target block no:  0, target key type:A, known target key: 0x000000000000 (not set), file action: read, Slow: No, Tests: 0 
+Using AVX2 SIMD core.
+Couldn't read benchmark data. Assuming brute force rate of 120000000 states per second
+
+
+
+ time    | #nonces | Activity                                                | expected to brute force
+         |         |                                                         | #states         | time 
+------------------------------------------------------------------------------------------------------
+       0 |       0 | Start using 6 threads and AVX2 SIMD core                |                 |
+       0 |       0 | Brute force benchmark: 120 million (2^26.8) keys/s      | 140737488355328 |   14d
+       0 |       0 | Using 0 precalculated bitflip state tables              | 140737488355328 |   14d
+       1 |       0 | Reading nonces from file nonces.bin...                  | 140737488355328 |   14d
+       1 |    1408 | Read 1408 nonces from file. cuid=aaf32da5               | 140737488355328 |   14d
+       1 |    1408 | Target Block=0, Keytype=A                               | 140737488355328 |   14d
+       1 |    1408 | (1. guess: Sum(a8) = 0)                                 |             nan |  nand
+       9 |    1408 | Apply Sum(a8) and all bytes bitflip properties          |             nan |  nand
+       9 |    1408 | Starting brute force...                                 |             nan |  nand
